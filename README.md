@@ -63,6 +63,46 @@ npm run dev
 
 http://localhost:5000
 
+cynaris-internship-platform/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── db.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── inviteController.js
+│   │   │   ├── adminController.js
+│   │   │   ├── assignmentController.js
+│   │   │   └── projectController.js
+│   │   ├── middleware/
+│   │   │   └── verifyToken.js
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   ├── Invite.js
+│   │   │   ├── Company.js
+│   │   │   ├── Project.js
+│   │   │   └── Assignment.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── invite.js
+│   │   │   ├── admin.js
+│   │   │   └── assignment.js
+│   │   └── app.js
+│   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
+│
+├── docs/
+│   ├── architecture.md
+│   └── wireframes/
+│       ├── admin_dashboard.md
+│       ├── student_dashboard.md
+│       ├── reviewer_dashboard.md
+│       └── Cynaris_Wireframe.png
+│
+└── README.md
+
 📡 API Endpoints Overview
 | Endpoint                         | Method | Description                   |
 | -------------------------------- | ------ | ----------------------------- |
