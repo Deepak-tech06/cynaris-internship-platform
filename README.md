@@ -63,6 +63,7 @@ npm run dev
 
 http://localhost:5000
 
+-->> FOLDER STRUCTURE 
 cynaris-internship-platform/
 │
 ├── backend/
