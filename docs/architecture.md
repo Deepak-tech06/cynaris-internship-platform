@@ -44,6 +44,10 @@
 - Track project assignment, progress, and completion  
 - Maintain clean REST API backend structure
 
+## 🖼️ Wireframes
+Wireframe diagrams are stored in `/docs/wireframes/`  
+![Cynaris Wireframe](./wireframes/Cynaris_Wireframe.png)
+
 ---
 
 ✅ **Status:** Sprint 0 Completed (with architecture and wireframe deliverables pending final visuals)
