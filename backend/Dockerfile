@@ -16,7 +16,7 @@ COPY . .
 EXPOSE 5000
 
 # Step 6: Run the server
-CMD ["npm", "run", "dev"]
+CMD ["/wait-for.sh", "db", "npm", "start"]
 
 COPY wait-for.sh /wait-for.sh
 RUN chmod +x /wait-for.sh
