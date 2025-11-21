@@ -3,18 +3,18 @@ import { createInvite, verifyInvite } from "../controllers/inviteController.js";
 
 const router = express.Router();
 
-// ✅ Debug confirmation that this file is loaded
+// 🟢 Debug confirmation this route file is loaded
 console.log("🔁 Invite route file loaded");
 
-// ✅ Test route to confirm routing works
+// 🧪 Simple test route
 router.get("/ping", (req, res) => {
   res.send("✅ Invite route working!");
 });
 
-// ✅ Admin creates invite
+// 🟦 Create Invite (Admin)
 router.post("/create", createInvite);
 
-// ✅ Student verifies invite
+// 🟩 Verify Invite (Student)
 router.post("/verify", verifyInvite);
 
 export default router;
