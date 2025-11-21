@@ -19,10 +19,11 @@ const Invite = sequelize.define("Invite", {
       isEmail: true,
     },
   },
-  tier_allowed: {
+  tier: {
     type: DataTypes.STRING,
-    allowNull: true,
-  },
+    allowNull: true,   // allow
+     defaultValue: null
+},
   status: {
     type: DataTypes.ENUM("unused", "used", "expired"),
     defaultValue: "unused",
