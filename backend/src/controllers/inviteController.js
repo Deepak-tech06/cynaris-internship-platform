@@ -1,3 +1,11 @@
+import Invite from "../models/Invite.js";
+import { createInvite, verifyInvite } from "../controllers/inviteController.js";
+import crypto from "crypto";
+
+/* =========================================================
+   CREATE INVITE (Admin creates a new invite code)
+   Route: POST /api/invites/create
+========================================================= */
 export const createInvite = async (req, res) => {
   console.log("🟢 [createInvite] called with body:", req.body);
 
@@ -20,18 +28,19 @@ export const createInvite = async (req, res) => {
     const invite = await Invite.create({
       code,
       email,
-      tier_allowed: tier,   // 👈 store correctly
+      tier,
       expiry,
     });
 
     console.log("✅ Invite created successfully:", invite.code);
 
+    // Send success response
     return res.status(201).json({
       message: "Invite created successfully",
       invite: {
         code: invite.code,
         email: invite.email,
-        tier: invite.tier_allowed,
+        tier_allowed: invite.tier_allowed,
         expiry: invite.expiry,
       },
     });
@@ -39,6 +48,61 @@ export const createInvite = async (req, res) => {
     console.error("❌ [createInvite] Error:", error);
     return res.status(500).json({
       message: "Failed to create invite",
+      error: error.message,
+    });
+  }
+};
+
+/* =========================================================
+   VERIFY INVITE (Student verifies a code)
+   Route: POST /api/invites/verify
+========================================================= */
+export const verifyInvite = async (req, res) => {
+  console.log("🟡 [verifyInvite] called with body:", req.body);
+
+  try {
+    const { code } = req.body;
+
+    // Validate request
+    if (!code) {
+      return res.status(400).json({ message: "Invite code is required." });
+    }
+
+    // Find invite by code
+    const invite = await Invite.findOne({ where: { code } });
+
+    // Check if invite exists
+    if (!invite) {
+      return res.status(404).json({ message: "Invalid invite code." });
+    }
+
+    // Check if already used
+    if (invite.status === "used") {
+      return res.status(400).json({ message: "Invite already used." });
+    }
+
+    // Check if expired
+    if (new Date() > new Date(invite.expiry)) {
+      invite.status = "expired";
+      await invite.save();
+      return res.status(400).json({ message: "Invite has expired." });
+    }
+
+    console.log("✅ Invite verified successfully:", invite.code);
+
+    // Send success response
+    return res.status(200).json({
+      message: "Invite verified successfully",
+      invite: {
+        code: invite.code,
+        email: invite.email,
+        tier_allowed: invite.tier_allowed,
+      },
+    });
+  } catch (error) {
+    console.error("❌ [verifyInvite] Error:", error);
+    return res.status(500).json({
+      message: "Failed to verify invite",
       error: error.message,
     });
   }
