@@ -13,12 +13,16 @@ export const registerUser = async (req, res) => {
   try {
     const { name, email, password, invite_code, tier, role } = req.body;
 
-    // ✅ Allow admins to register without invite code
-    if (role !== "admin" && !invite_code) {
-      return res
-        .status(400)
-        .json({ message: "Invite code is required for registration." });
-    }
+   // Admin can register without invite code
+if (role === "admin") {
+  console.log("Admin registration — invite NOT required");
+} else {
+  // Students / Others MUST have invite code
+  if (!invite_code) {
+    return res.status(400).json({ message: "Invite code is required." });
+  }
+}
+
 
     // ✅ Check if user already exists
     const existingUser = await User.findOne({ where: { email } });
