@@ -1,20 +1,15 @@
 import express from "express";
 import { createInvite, verifyInvite } from "../controllers/inviteController.js";
+import { validateDetails } from "../middleware/validation.js";
+import { createInviteSchema, verifyInviteSchema } from "../utils/schemas.js";
+import { verifyToken, verifyAdmin } from "../middleware/verifyToken.js";
 
 const router = express.Router();
 
-// 🟢 Debug confirmation this route file is loaded
-console.log("🔁 Invite route file loaded");
+// 🟦 Create Invite (Admin Only — Protected)
+router.post("/create", verifyToken, verifyAdmin, validateDetails(createInviteSchema), createInvite);
 
-// 🧪 Simple test route
-router.get("/ping", (req, res) => {
-  res.send("✅ Invite route working!");
-});
-
-// 🟦 Create Invite (Admin)
-router.post("/create", createInvite);
-
-// 🟩 Verify Invite (Student)
-router.post("/verify", verifyInvite);
+// 🟩 Verify Invite (Public — students need to verify before registering)
+router.post("/verify", validateDetails(verifyInviteSchema), verifyInvite);
 
 export default router;

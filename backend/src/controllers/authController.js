@@ -1,132 +1,86 @@
-import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
-import dotenv from "dotenv";
-import User from "../models/User.js";
-import Invite from "../models/Invite.js";
-
-dotenv.config();
+import * as authService from "../services/authService.js";
+import { catchAsync } from "../utils/catchAsync.js";
 
 /* ================================
    🧩 REGISTER USER (Admin / Student)
 ================================ */
-export const registerUser = async (req, res) => {
-  try {
-    const { name, email, password, invite_code, tier, role } = req.body;
+export const registerUser = catchAsync(async (req, res, next) => {
+  const user = await authService.register(req.body);
 
-   // Admin can register without invite code
-if (role === "admin") {
-  console.log("Admin registration — invite NOT required");
-} else {
-  // Students / Others MUST have invite code
-  if (!invite_code) {
-    return res.status(400).json({ message: "Invite code is required." });
-  }
-}
-
-
-    // ✅ Check if user already exists
-    const existingUser = await User.findOne({ where: { email } });
-    if (existingUser) {
-      return res.status(400).json({ message: "User already exists." });
-    }
-
-    let userTier = tier;
-
-    // ✅ If not admin, validate invite
-    if (role !== "admin") {
-      const invite = await Invite.findOne({ where: { code: invite_code } });
-      if (!invite) {
-        return res.status(400).json({ message: "Invalid invite code." });
-      }
-
-      // Check expiry
-      if (new Date(invite.expiry) < new Date()) {
-        return res.status(400).json({ message: "Invite code expired." });
-      }
-
-      // Mark invite as used
-      invite.status = "used";
-      await invite.save();
-
-      // Set tier from invite if not provided
-      userTier = invite.tier_allowed || tier;
-    }
-
-    // ✅ Hash password
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    // ✅ Create user
-    const user = await User.create({
-      name,
-      email,
-      password: hashedPassword,
-      tier: userTier,
-      role: role || "student",
-    });
-
-    res.status(201).json({
-      message: "User registered successfully.",
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        role: user.role,
-        tier: user.tier,
-      },
-    });
-  } catch (error) {
-    res.status(500).json({
-      message: "Registration failed.",
-      error: error.message,
-    });
-  }
-};
+  res.status(201).json({
+    message: "User registered successfully.",
+    user: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      tier: user.tier,
+    },
+  });
+});
 
 /* ================================
    🔐 LOGIN USER
 ================================ */
-export const loginUser = async (req, res) => {
-  try {
-    const { email, password } = req.body;
+export const loginUser = catchAsync(async (req, res, next) => {
+  const { email, password } = req.body;
+  const { user, token } = await authService.login(email, password);
 
-    // ✅ Check if user exists
-    const user = await User.findOne({ where: { email } });
-    if (!user) {
-      return res.status(404).json({ message: "User not found." });
-    }
+  res.status(200).json({
+    message: "Login successful.",
+    token,
+    user: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      tier: user.tier,
+    },
+  });
+});
 
-    // ✅ Validate password
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) {
-      return res.status(400).json({ message: "Invalid password." });
-    }
+/* ================================
+   👤 GET CURRENT USER (ME)
+================================ */
+export const getMe = catchAsync(async (req, res, next) => {
+  const user = await authService.getMe(req.user.id);
 
-    // ✅ Generate JWT
-    const token = jwt.sign(
-      {
-        id: user.id,
-        email: user.email,
-        role: user.role,
-      },
-      process.env.JWT_SECRET,
-      { expiresIn: "1h" }
-    );
+  res.json({
+    user: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      tier: user.tier,
+    },
+  });
+});
 
-    res.status(200).json({
-      message: "Login successful.",
-      token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        role: user.role,
-        tier: user.tier,
-      },
-    });
-  } catch (error) {
-    res.status(500).json({
-      message: "Login failed.",
-      error: error.message,
-    });
-  }
-};
+/* ================================
+   ✏️ UPDATE PROFILE
+================================ */
+export const updateProfile = catchAsync(async (req, res, next) => {
+  const user = await authService.updateProfile(req.user.id, req.body);
+
+  // Update localStorage-compatible response
+  res.json({
+    message: "Profile updated successfully.",
+    user: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      tier: user.tier,
+    },
+  });
+});
+
+/* ================================
+   🔑 CHANGE PASSWORD
+================================ */
+export const changePassword = catchAsync(async (req, res, next) => {
+  const { currentPassword, newPassword } = req.body;
+  await authService.changePassword(req.user.id, currentPassword, newPassword);
+
+  res.json({ message: "Password changed successfully." });
+});

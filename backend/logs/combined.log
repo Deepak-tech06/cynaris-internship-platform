@@ -1,0 +1,368 @@
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T07:52:02.860Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T07:52:02.863Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T07:52:02.864Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T07:52:02.864Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T07:52:02.865Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T07:52:02.869Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T07:52:04.530Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T07:53:18.719Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T07:53:18.725Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T07:53:18.727Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T07:53:18.727Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T07:53:18.728Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T07:53:18.731Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T07:53:19.404Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T07:59:06.151Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T07:59:06.155Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T07:59:06.158Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T07:59:06.159Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T07:59:06.161Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T07:59:06.171Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T07:59:06.987Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T07:59:07.153Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T07:59:07.156Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T07:59:07.158Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T07:59:07.160Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T07:59:07.162Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T07:59:07.164Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T07:59:07.868Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs\",\"status\":\"301\",\"responseTime\":\"10.512\"}","timestamp":"2025-12-24T08:00:05.384Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/\",\"status\":\"200\",\"responseTime\":\"3.509\"}","timestamp":"2025-12-24T08:00:05.398Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/swagger-ui-init.js\",\"status\":\"200\",\"responseTime\":\"0.518\"}","timestamp":"2025-12-24T08:00:05.489Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/swagger-ui.css\",\"status\":\"200\",\"responseTime\":\"10.304\"}","timestamp":"2025-12-24T08:00:05.495Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/swagger-ui-standalone-preset.js\",\"status\":\"200\",\"responseTime\":\"11.389\"}","timestamp":"2025-12-24T08:00:05.503Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/swagger-ui-bundle.js\",\"status\":\"200\",\"responseTime\":\"8.301\"}","timestamp":"2025-12-24T08:00:05.543Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api-docs/favicon-32x32.png\",\"status\":\"200\",\"responseTime\":\"1.792\"}","timestamp":"2025-12-24T08:00:07.247Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:07:35.574Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:07:35.576Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:07:35.584Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:07:35.586Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:07:35.588Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:07:35.590Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:07:35.598Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:07:35.586Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:07:35.588Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:07:35.589Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:07:35.591Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:07:35.599Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T08:07:37.428Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T08:07:37.470Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:07:58.109Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:07:58.113Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:07:58.113Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:07:58.114Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:07:58.114Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:07:58.117Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T08:07:58.748Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:07:58.851Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:07:58.853Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:07:58.854Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:07:58.855Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:07:58.856Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:07:58.859Z"}
+{"level":"error","message":"❌ Database connection failed: Connection terminated unexpectedly","timestamp":"2025-12-24T08:07:59.509Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:13:18.692Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:13:18.700Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:13:18.701Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:13:18.701Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:13:18.703Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:13:18.708Z"}
+{"level":"error","message":"❌ Database connection failed: password authentication failed for user \"postgres\"","timestamp":"2025-12-24T08:13:18.765Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:17:37.191Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:17:37.193Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:17:37.194Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:17:37.195Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:17:37.196Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:17:37.200Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2025-12-24T08:17:37.203Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2025-12-24T08:17:37.732Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:17:43.333Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:17:43.336Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:17:43.336Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:17:43.337Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:17:43.338Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:17:43.341Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2025-12-24T08:17:43.343Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2025-12-24T08:17:43.653Z"}
+{"level":"error","message":"ZodError: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"name\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  },\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]\n    at file:///D:/cynaris-internship-platform/backend/src/middleware/validation.js:6:16\n    at Layer.handleRequest (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\cynaris-internship-platform\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\cynaris-internship-platform\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-12-24T08:18:45.730Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"status\":\"500\",\"responseTime\":\"6.401\"}","timestamp":"2025-12-24T08:18:45.737Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"status\":\"400\",\"responseTime\":\"1.441\"}","timestamp":"2025-12-24T08:21:07.202Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:25:21.131Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:25:21.133Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:25:21.134Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:25:21.134Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:25:21.135Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:25:21.139Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2025-12-24T08:25:21.141Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2025-12-24T08:25:21.421Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:26:33.410Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:26:33.413Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:26:33.413Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:26:33.414Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:26:33.414Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:26:33.417Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2025-12-24T08:26:33.419Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2025-12-24T08:26:33.724Z"}
+{"level":"error","message":"SyntaxError: Bad escaped character in JSON at position 8 (line 1 column 9)\n    at JSON.parse (<anonymous>)\n    at parse (D:\\cynaris-internship-platform\\backend\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at D:\\cynaris-internship-platform\\backend\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\cynaris-internship-platform\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\cynaris-internship-platform\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\cynaris-internship-platform\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-12-24T08:27:08.789Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2025-12-24T08:29:10.939Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2025-12-24T08:29:10.943Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2025-12-24T08:29:10.944Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2025-12-24T08:29:10.944Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2025-12-24T08:29:10.945Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2025-12-24T08:29:10.949Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2025-12-24T08:29:10.951Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2025-12-24T08:29:11.274Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-09T16:08:42.131Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-09T16:09:15.921Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-09T16:09:15.926Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-09T16:09:15.926Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-09T16:09:15.927Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-09T16:09:15.928Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-09T16:09:15.930Z"}
+{"level":"error","message":"❌ Database connection failed: password authentication failed for user \"postgres\"","timestamp":"2026-04-09T16:09:15.976Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-09T16:10:14.883Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-09T16:10:14.918Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-09T16:10:14.923Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-09T16:10:14.926Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-09T16:10:14.983Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-09T16:10:15.004Z"}
+{"level":"error","message":"❌ Database connection failed: password authentication failed for user \"postgres\"","timestamp":"2026-04-09T16:10:15.093Z"}
+{"level":"info","message":"{\"method\":\"HEAD\",\"url\":\"/\",\"status\":\"200\",\"responseTime\":\"41.666\"}","timestamp":"2026-04-09T16:23:06.620Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"200\",\"responseTime\":\"1.925\"}","timestamp":"2026-04-09T16:23:06.638Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-09T16:29:01.488Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-09T16:29:01.502Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-09T16:29:01.503Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-09T16:29:01.503Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-09T16:29:01.504Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-09T16:29:01.510Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-09T16:29:01.522Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-09T16:29:02.870Z"}
+{"level":"error","message":"400 - Unexpected non-whitespace character after JSON at position 29 - /api/auth/register - POST - ::1","timestamp":"2026-04-09T16:45:46.227Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"status\":\"201\",\"responseTime\":\"606.738\"}","timestamp":"2026-04-09T16:49:15.298Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:46:05.219Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:46:05.320Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:46:05.321Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:46:05.322Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:46:05.323Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:46:05.332Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:46:05.336Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:46:06.764Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:52:18.465Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:52:18.479Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:52:18.480Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:52:18.481Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:52:18.483Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:52:18.681Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:52:18.691Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:52:19.962Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:53:02.118Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:53:02.145Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:53:02.146Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:53:02.147Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:53:02.151Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:53:02.158Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:53:02.163Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:53:03.103Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:53:42.363Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:53:42.372Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:53:42.374Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:53:42.375Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:53:42.377Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:53:42.384Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:53:42.388Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:53:43.341Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:54:00.886Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:54:00.898Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:54:00.901Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:54:00.905Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:54:00.908Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:54:00.915Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:54:00.918Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:54:01.676Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:54:11.911Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:54:11.920Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:54:11.922Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:54:11.923Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:54:11.925Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:54:11.932Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:54:11.937Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:54:12.968Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:54:26.927Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:54:26.945Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:54:26.946Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:54:26.947Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:54:26.949Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:54:26.955Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:54:26.958Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:54:27.876Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:55:03.286Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:55:03.331Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:55:03.332Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:55:03.333Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:55:03.335Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:55:03.343Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:55:03.348Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:55:04.356Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:55:18.238Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:55:18.246Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:55:18.246Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:55:18.267Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:55:18.269Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:55:18.276Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:55:18.281Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:55:19.285Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T05:59:34.417Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T05:59:34.422Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T05:59:34.422Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T05:59:34.423Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T05:59:34.424Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T05:59:34.430Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T05:59:34.434Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T05:59:35.232Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T06:00:29.971Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T06:03:56.681Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T06:03:56.685Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T06:03:56.685Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T06:03:56.686Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T06:03:56.686Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T06:03:56.691Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T06:03:56.696Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T06:03:57.414Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"status\":\"201\",\"responseTime\":\"956.960\"}","timestamp":"2026-04-23T06:34:19.649Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"200\",\"responseTime\":\"357.069\"}","timestamp":"2026-04-23T06:34:51.261Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"200\",\"responseTime\":\"531.776\"}","timestamp":"2026-04-23T06:34:53.193Z"}
+{"level":"info","message":"🟢 Client connected: Pge2ELEHzK3CbtMZAAAC","timestamp":"2026-04-23T06:34:53.372Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"266.600\"}","timestamp":"2026-04-23T06:34:53.499Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:34:53.528Z"}
+{"level":"info","message":"🔴 Client disconnected: Pge2ELEHzK3CbtMZAAAC","timestamp":"2026-04-23T06:35:31.807Z"}
+{"level":"info","message":"🟢 Client connected: iv5fcHUg7aF09julAAAF","timestamp":"2026-04-23T06:35:32.675Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:35:32.842Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"200\",\"responseTime\":\"1705.795\"}","timestamp":"2026-04-23T06:35:33.862Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"191.281\"}","timestamp":"2026-04-23T06:35:34.066Z"}
+{"level":"info","message":"🔴 Client disconnected: iv5fcHUg7aF09julAAAF","timestamp":"2026-04-23T06:36:04.219Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"200\",\"responseTime\":\"1134.780\"}","timestamp":"2026-04-23T06:38:37.832Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"5.788\"}","timestamp":"2026-04-23T06:38:37.962Z"}
+{"level":"info","message":"🟢 Client connected: 6XYv4plUu5OcIzQoAAAI","timestamp":"2026-04-23T06:38:39.871Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:38:40.944Z"}
+{"level":"info","message":"🔴 Client disconnected: 6XYv4plUu5OcIzQoAAAI","timestamp":"2026-04-23T06:40:18.754Z"}
+{"level":"info","message":"🟢 Client connected: K0EswvLv6Yfa0ReoAAAL","timestamp":"2026-04-23T06:40:28.673Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:40:28.703Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"372.220\"}","timestamp":"2026-04-23T06:40:28.954Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"19.965\"}","timestamp":"2026-04-23T06:40:28.977Z"}
+{"level":"info","message":"🔴 Client disconnected: K0EswvLv6Yfa0ReoAAAL","timestamp":"2026-04-23T06:43:43.618Z"}
+{"level":"info","message":"🟢 Client connected: LIzID8b8RwwfMiCEAAAO","timestamp":"2026-04-23T06:43:43.956Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:43:43.994Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"459.663\"}","timestamp":"2026-04-23T06:43:44.158Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"34.050\"}","timestamp":"2026-04-23T06:43:44.204Z"}
+{"level":"info","message":"🔴 Client disconnected: LIzID8b8RwwfMiCEAAAO","timestamp":"2026-04-23T06:44:39.460Z"}
+{"level":"info","message":"🟢 Client connected: 2cvW5tQqNbcvmuyVAAAR","timestamp":"2026-04-23T06:44:39.640Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:44:39.681Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"276.405\"}","timestamp":"2026-04-23T06:44:39.867Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"14.258\"}","timestamp":"2026-04-23T06:44:39.883Z"}
+{"level":"info","message":"🔴 Client disconnected: 2cvW5tQqNbcvmuyVAAAR","timestamp":"2026-04-23T06:44:42.609Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"9.649\"}","timestamp":"2026-04-23T06:44:46.528Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"8.795\"}","timestamp":"2026-04-23T06:44:46.540Z"}
+{"level":"info","message":"🟢 Client connected: oIMIABfLYXY019kKAAAU","timestamp":"2026-04-23T06:44:46.587Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:44:46.650Z"}
+{"level":"info","message":"🔴 Client disconnected: oIMIABfLYXY019kKAAAU","timestamp":"2026-04-23T06:44:48.434Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"11.635\"}","timestamp":"2026-04-23T06:44:48.509Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"8.297\"}","timestamp":"2026-04-23T06:44:48.523Z"}
+{"level":"info","message":"🟢 Client connected: 8Zpmh6u3eHzyxzEiAAAX","timestamp":"2026-04-23T06:44:48.540Z"}
+{"level":"info","message":"👤 User 4 joined room user_4","timestamp":"2026-04-23T06:44:48.622Z"}
+{"level":"info","message":"🔴 Client disconnected: 8Zpmh6u3eHzyxzEiAAAX","timestamp":"2026-04-23T06:45:01.670Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-04-23T06:57:33.513Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-04-23T06:57:33.516Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-04-23T06:57:33.517Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-04-23T06:57:33.518Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-04-23T06:57:33.519Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-04-23T06:57:33.523Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-04-23T06:57:33.528Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-04-23T06:57:34.089Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-05-03T09:01:22.405Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-05-03T09:01:22.410Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-05-03T09:01:22.411Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-05-03T09:01:22.412Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-05-03T09:01:22.413Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-05-03T09:01:22.420Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-05-03T09:01:22.424Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-05-03T09:01:23.228Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"40.655\"}","timestamp":"2026-05-03T09:02:59.333Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"9.734\"}","timestamp":"2026-05-03T09:02:59.358Z"}
+{"level":"info","message":"🟢 Client connected: GW1uZPEAD76WYtKnAAAC","timestamp":"2026-05-03T09:02:59.743Z"}
+{"level":"info","message":"🔴 Client disconnected: GW1uZPEAD76WYtKnAAAC","timestamp":"2026-05-03T09:03:00.633Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"4.890\"}","timestamp":"2026-05-03T09:03:52.290Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"2.476\"}","timestamp":"2026-05-03T09:03:52.296Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"3.210\"}","timestamp":"2026-05-03T09:03:57.807Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"401\",\"responseTime\":\"3.411\"}","timestamp":"2026-05-03T09:03:57.815Z"}
+{"level":"error","message":"fail - User not found. - /api/auth/login - POST - ::1","timestamp":"2026-05-03T09:04:21.300Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"404\",\"responseTime\":\"354.470\"}","timestamp":"2026-05-03T09:04:21.306Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-05-03T09:05:47.264Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-05-03T09:05:47.268Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-05-03T09:05:47.268Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-05-03T09:05:47.269Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-05-03T09:05:47.270Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-05-03T09:05:47.275Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-05-03T09:05:47.278Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-05-03T09:05:47.762Z"}
+{"level":"error","message":"fail - Invalid password. - /api/auth/login - POST - ::1","timestamp":"2026-05-03T09:09:33.300Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"400\",\"responseTime\":\"537.590\"}","timestamp":"2026-05-03T09:09:33.329Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"200\",\"responseTime\":\"368.285\"}","timestamp":"2026-05-03T09:10:03.243Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"200\",\"responseTime\":\"134.583\"}","timestamp":"2026-05-03T09:10:03.743Z"}
+{"level":"info","message":"🟢 Client connected: a_FV7LPw5G3qTn3QAAAC","timestamp":"2026-05-03T09:10:03.781Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"39.516\"}","timestamp":"2026-05-03T09:10:03.785Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:10:03.830Z"}
+{"level":"info","message":"🔴 Client disconnected: a_FV7LPw5G3qTn3QAAAC","timestamp":"2026-05-03T09:10:23.899Z"}
+{"level":"info","message":"🟢 Client connected: gGZuZbMfVf9VRsRmAAAF","timestamp":"2026-05-03T09:10:24.027Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:10:24.041Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"200\",\"responseTime\":\"133.110\"}","timestamp":"2026-05-03T09:10:24.127Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/students\",\"status\":\"304\",\"responseTime\":\"17.899\"}","timestamp":"2026-05-03T09:10:24.149Z"}
+{"level":"info","message":"🔴 Client disconnected: gGZuZbMfVf9VRsRmAAAF","timestamp":"2026-05-03T09:10:29.474Z"}
+{"level":"info","message":"🟢 Client connected: XdJCftGGDriHTK2RAAAI","timestamp":"2026-05-03T09:10:29.553Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"200\",\"responseTime\":\"37.401\"}","timestamp":"2026-05-03T09:10:29.558Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:10:29.563Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"9.586\"}","timestamp":"2026-05-03T09:10:29.570Z"}
+{"level":"info","message":"{\"method\":\"PATCH\",\"url\":\"/api/auth/profile\",\"status\":\"200\",\"responseTime\":\"233.294\"}","timestamp":"2026-05-03T09:10:57.958Z"}
+{"level":"info","message":"🔴 Client disconnected: XdJCftGGDriHTK2RAAAI","timestamp":"2026-05-03T09:11:11.600Z"}
+{"level":"info","message":"🟢 Client connected: 6TyotXPOho5rsbfKAAAL","timestamp":"2026-05-03T09:11:17.503Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:11:17.513Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"200\",\"responseTime\":\"106.759\"}","timestamp":"2026-05-03T09:11:17.599Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"8.771\"}","timestamp":"2026-05-03T09:11:17.610Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-05-03T09:22:39.489Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-05-03T09:22:39.492Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-05-03T09:22:39.492Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-05-03T09:22:39.492Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-05-03T09:22:39.493Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-05-03T09:22:39.497Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-05-03T09:22:39.500Z"}
+{"level":"info","message":"🟢 Client connected: CuMWj7UDqugU7KPpAAAB","timestamp":"2026-05-03T09:22:39.645Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:22:39.680Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-05-03T09:22:40.090Z"}
+{"level":"info","message":"🔴 Client disconnected: CuMWj7UDqugU7KPpAAAB","timestamp":"2026-05-03T09:22:50.016Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"163.475\"}","timestamp":"2026-05-03T09:23:20.453Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"5.598\"}","timestamp":"2026-05-03T09:23:20.461Z"}
+{"level":"info","message":"🟢 Client connected: mjmUxq3lPEq2KeN7AAAE","timestamp":"2026-05-03T09:23:21.217Z"}
+{"level":"info","message":"🔴 Client disconnected: mjmUxq3lPEq2KeN7AAAE","timestamp":"2026-05-03T09:23:21.514Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"200\",\"responseTime\":\"358.342\"}","timestamp":"2026-05-03T09:23:52.793Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"200\",\"responseTime\":\"81.386\"}","timestamp":"2026-05-03T09:23:53.087Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"12.002\"}","timestamp":"2026-05-03T09:23:53.101Z"}
+{"level":"info","message":"🟢 Client connected: QB7DbY8ZUrS7P0VrAAAH","timestamp":"2026-05-03T09:23:53.120Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:23:53.186Z"}
+{"level":"info","message":"✅ Auth routes loaded under /api/auth","timestamp":"2026-05-03T09:25:31.220Z"}
+{"level":"info","message":"✅ Invite routes loaded under /api/invites","timestamp":"2026-05-03T09:25:31.225Z"}
+{"level":"info","message":"✅ Admin routes loaded under /api/admin","timestamp":"2026-05-03T09:25:31.225Z"}
+{"level":"info","message":"✅ Assignment routes loaded under /api/assignments","timestamp":"2026-05-03T09:25:31.226Z"}
+{"level":"info","message":"📜 Swagger Docs available at /api-docs","timestamp":"2026-05-03T09:25:31.227Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-05-03T09:25:31.230Z"}
+{"level":"info","message":"🗄️ PostgreSQL connected successfully.","timestamp":"2026-05-03T09:25:31.232Z"}
+{"level":"info","message":"✅ Database synchronized successfully!","timestamp":"2026-05-03T09:25:31.678Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"147.676\"}","timestamp":"2026-05-03T09:25:40.966Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"19.023\"}","timestamp":"2026-05-03T09:25:40.992Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"6.473\"}","timestamp":"2026-05-03T09:25:46.259Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"4.770\"}","timestamp":"2026-05-03T09:25:46.266Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"4.778\"}","timestamp":"2026-05-03T09:25:54.115Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/auth/me\",\"status\":\"304\",\"responseTime\":\"6.744\"}","timestamp":"2026-05-03T09:25:54.133Z"}
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"status\":\"200\",\"responseTime\":\"362.359\"}","timestamp":"2026-05-03T09:26:10.213Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"87.766\"}","timestamp":"2026-05-03T09:26:10.531Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/admin/dashboard\",\"status\":\"304\",\"responseTime\":\"20.265\"}","timestamp":"2026-05-03T09:26:10.555Z"}
+{"level":"info","message":"🟢 Client connected: Pk0PFUk1IbtoylHZAAAE","timestamp":"2026-05-03T09:26:10.608Z"}
+{"level":"info","message":"👤 User 2 joined room user_2","timestamp":"2026-05-03T09:26:10.657Z"}
