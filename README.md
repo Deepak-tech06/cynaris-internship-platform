@@ -1,163 +1,181 @@
 <div align="center">
 
-# 🚀 Cynaris Internship Platform  
+# 🚀 Cynaris Internship Platform
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+### 🧠 Full-Stack Internship Management System
 
-### 🧠 Internship Management System built for **Cynaris Internship Program**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge\&logo=express\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge\&logo=jsonwebtokens\&logoColor=white)
+
 </div>
 
 ---
 
-# 🚀 Cynaris Internship Platform  
-A full-stack internship management system developed during my **Cynaris Internship Program**.  
+## 📌 Overview
 
-This platform helps manage internship projects by connecting **Admins**, **Students**, and **Reviewers**.  
-Admins can create companies, projects, and invites. Students can register using invite codes and track project status.
+Cynaris Internship Platform is a **full-stack system** built to manage internship workflows efficiently.
+
+It connects **Admins, Students, and Reviewers** into a structured platform where:
+
+* Admins manage companies, projects, and invitations
+* Students join using invite codes and track progress
+* Reviewers monitor and update project status
+
+---
+
+## ✨ Key Features
+
+* 🔐 JWT-based Authentication & Authorization
+* 🧑‍💼 Role-Based Access Control (Admin / Student / Reviewer)
+* 🏢 Company & Project Management
+* 📩 Invite-based Student Registration System
+* 📊 Assignment & Status Tracking
+* 🧱 Clean MVC Architecture
 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend:** Node.js, Express.js  
-- **Database:** PostgreSQL with Sequelize ORM  
-- **Authentication:** JWT (JSON Web Token)  
-- **Environment Config:** dotenv  
-- **Version Control:** Git & GitHub  
-- **Testing Tool:** Postman  
-- **Docs:** Markdown & Wireframes  
+
+| Layer    | Technology                 |
+| -------- | -------------------------- |
+| Backend  | Node.js, Express.js        |
+| Database | PostgreSQL (Sequelize ORM) |
+| Auth     | JWT                        |
+| Tools    | Postman, Git, GitHub       |
 
 ---
 
-## ⚙️ How to Run the Project
+## 📂 Project Structure
 
-### 1️⃣ Clone this Repository
+```bash
+cynaris-internship-platform/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/        # Database config
+│   │   ├── controllers/   # Business logic
+│   │   ├── middleware/    # Auth middleware
+│   │   ├── models/        # Sequelize models
+│   │   ├── routes/        # API routes
+│   │   └── app.js         # Entry point
+│
+├── docs/                  # Architecture + Wireframes
+└── README.md
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/Deepak-tech06/cynaris-internship-platform.git
+cd cynaris-internship-platform/backend
+```
 
 ---
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install dependencies
+
 ```bash
-cd backend
 npm install
+```
 
-Create a .env file in the backend folder with the following content:
+---
 
+### 3️⃣ Configure environment variables
+
+Create a `.env` file inside `/backend`:
+
+```env
 DB_NAME=your_database_name
 DB_USER=your_postgres_username
 DB_PASS=your_postgres_password
 DB_HOST=localhost
 PORT=5000
 JWT_SECRET=your_secret_key
+```
 
+---
 
-⚠️ Note: This file is not uploaded to GitHub for security reasons.
-Make sure to create it locally before running the project.
+### 4️⃣ Run the server
 
+```bash
 npm run dev
+```
 
-http://localhost:5000
-
--->> FOLDER STRUCTURE 
-cynaris-internship-platform/
-│
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js
-│   │   ├── controllers/
-│   │   │   ├── authController.js
-│   │   │   ├── inviteController.js
-│   │   │   ├── adminController.js
-│   │   │   ├── assignmentController.js
-│   │   │   └── projectController.js
-│   │   ├── middleware/
-│   │   │   └── verifyToken.js
-│   │   ├── models/
-│   │   │   ├── User.js
-│   │   │   ├── Invite.js
-│   │   │   ├── Company.js
-│   │   │   ├── Project.js
-│   │   │   └── Assignment.js
-│   │   ├── routes/
-│   │   │   ├── auth.js
-│   │   │   ├── invite.js
-│   │   │   ├── admin.js
-│   │   │   └── assignment.js
-│   │   └── app.js
-│   ├── .gitignore
-│   ├── package.json
-│   └── package-lock.json
-│
-├── docs/
-│   ├── architecture.md
-│   └── wireframes/
-│       ├── admin_dashboard.md
-│       ├── student_dashboard.md
-│       ├── reviewer_dashboard.md
-│       └── Cynaris_Wireframe.png
-│
-└── README.md
-
-📡 API Endpoints Overview
-| Endpoint                         | Method | Description                   |
-| -------------------------------- | ------ | ----------------------------- |
-| `/api/auth/register`             | POST   | Register user (Admin/Student) |
-| `/api/auth/login`                | POST   | Login and get JWT token       |
-| `/api/invites/create`            | POST   | Admin creates invite          |
-| `/api/invites/verify`            | POST   | Verify student invite         |
-| `/api/admin/create-company`      | POST   | Create a company              |
-| `/api/admin/create-project`      | POST   | Create a project              |
-| `/api/assignments/update-status` | PATCH  | Update project status         |
-
-🧪 Testing
-You can test all APIs using Postman.
-Set the Authorization header as:
-
-Bearer <your_generated_token>
-
-🖼️ Documentation
-All wireframes and project architecture are available under:
-
-/docs
-  ├── wireframes/
-  │   ├── admin_dashboard.md
-  │   ├── student_dashboard.md
-  │   └── reviewer_dashboard.md
-  └── architecture.md
+Server runs on:
+👉 `http://localhost:5000`
 
 ---
 
-<div align="center">
+## 🔐 API Overview
 
-### 🏁 Project Status  
-✅ **Completed:** Sprint 0 → Sprint 3  
-🚀 **Current Phase:** Backend finalized and fully functional  
-
----
-
-### ✨ Contributors  
-**👨‍💻 Deepak   
-Cynaris Internship Program — *AI Internship Management Platform*  
-[🔗 GitHub Profile](https://github.com/Deepak-tech06)
-
----
-
-### 💖 Acknowledgments  
-Special thanks to **Cynaris Solutions** for providing mentorship and real-world project experience during the internship.
+| Endpoint                         | Method | Description       |
+| -------------------------------- | ------ | ----------------- |
+| `/api/auth/register`             | POST   | Register user     |
+| `/api/auth/login`                | POST   | Login & get token |
+| `/api/invites/create`            | POST   | Create invite     |
+| `/api/invites/verify`            | POST   | Verify invite     |
+| `/api/admin/create-company`      | POST   | Create company    |
+| `/api/admin/create-project`      | POST   | Create project    |
+| `/api/assignments/update-status` | PATCH  | Update status     |
 
 ---
 
-### 🛠️ Made With  
-❤️ **Node.js**, **Express**, **PostgreSQL**, **JWT**, and **a lot of caffeine ☕**
+## 🧪 Testing
+
+Use Postman and include:
+
+```
+Authorization: Bearer <token>
+```
 
 ---
 
-#### © 2025 Cynaris Internship Program. All Rights Reserved.
+## 📸 Screenshots (Add these)
 
-</div>
+> ⚠️ Add UI screenshots here (very important for recruiters)
+
+---
+
+## 🌐 Deployment (Next Step)
+
+* Frontend → Vercel / Netlify
+* Backend → Render / Railway
+
+---
+
+## 🚧 Project Status
+
+* ✅ Backend Completed
+* 🔄 Frontend Integration (if pending)
+* 🚀 Deployment (in progress)
+
+---
+
+## 👨‍💻 Author
+
+**Deepak**
+BCA Student | Full-Stack Developer
+
+🔗 https://github.com/Deepak-tech06
+
+---
+
+## 🧠 What This Project Demonstrates
+
+* Real-world backend architecture
+* Secure authentication system
+* Database design with PostgreSQL
+* REST API development
+* Scalable project structure
+
+---
+
+## ⭐ Final Note
+
+This project was built as part of an internship but structured to reflect **industry-level backend development practices**.
