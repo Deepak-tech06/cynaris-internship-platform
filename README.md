@@ -66,3 +66,19 @@ The platform includes:
 
 ## 📊 Dashboard
 ![Dashboard](./screenshots/dashboard.png)
+
+
+## 📊 Dashboard 1
+![Dashboard](./screenshots/dashboard1.png)
+
+
+# 🏗️ Architecture
+
+```text
+React Frontend (Vercel)
+        ↓
+Express Backend (Render)
+        ↓
+Supabase PostgreSQL
+```
+
